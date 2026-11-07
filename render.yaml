@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: mi-rpg-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    
